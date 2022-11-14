@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fashion_Activity"
+    android:background="#d1adcc ">
+
+  <ImageView
+      android:id="@+id/imgAbum1"
+      android:layout_width="120dp"
+      android:layout_height="120dp"
+      android:padding="15dp" />
+
+  <TextView
+      android:id="@+id/textViewTen"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="25dp"
+      android:layout_toRightOf="@+id/imgAbum1"
+
+      android:text="Ten"
+      android:textColor="#5f2c3e "
+      android:textSize="20dp"
+      android:textStyle="bold" />
+
+  <TextView
+      android:id="@+id/textViewMota"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/textViewTen"
+      android:layout_toRightOf="@+id/imgAbum1"
+      android:text="Mo ta"
+      android:textColor="#f6e9d7"
+      android:textSize="12dp" />
+
+  <TextView
+      android:id="@+id/textViewTien"
+      android:layout_width="70dp"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/textViewMota"
+      android:layout_marginTop="7dp"
+      android:layout_toRightOf="@+id/imgAbum1"
+      android:background="@drawable/style_border_tien"
+      android:fontFamily="serif-monospace"
+      android:gravity="center"
+      android:text="Tien"
+      android:textColor="#5f2c3e "
+      android:textSize="20dp"
+      android:textStyle="bold" />
+
+  <ImageView
+      android:layout_width="wrap_content"
+      android:layout_height="40dp"
+      android:layout_marginLeft="230dp"
+      android:layout_marginTop="50dp"
+      android:layout_toRightOf="@id/imgAbum1"
+       />
+</RelativeLayout>
